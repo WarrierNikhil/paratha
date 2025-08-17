@@ -1,0 +1,32 @@
+# Don't publish raw source
+src/
+test/
+examples/
+
+# Config & metadata
+tsconfig.json
+tsup.config.ts
+vitest.config.*
+jest.config.*
+.eslintrc.*
+.prettierrc*
+.editorconfig
+
+# GitHub / CI
+.github/
+.gitignore
+
+# Local stuff
+.vscode/
+.idea/
+
+# Logs & reports
+*.log
+coverage/
+.nyc_output/
+
+# Build caches
+*.tsbuildinfo
+.rpt2_cache/
+.rts2_cache_*/
+.cache/
